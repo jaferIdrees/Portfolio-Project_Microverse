@@ -10,11 +10,21 @@
 }
 
 .welcome {
-  font-size: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
 }
 
 .vector {
   fill:rgb(0,0,0);
   stroke-width:1;
   stroke:rgb(0,0,0)
+}
+
+body {
+  background-image: url("header-illsutration-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
