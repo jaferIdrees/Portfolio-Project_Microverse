@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 2vh 5vw ;
+  padding: 2vh 5vw;
 }
 
 .vector_container {
@@ -10,17 +10,17 @@
 }
 
 .welcome {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .vector {
-  fill:rgb(0,0,0);
-  stroke-width:1;
-  stroke:rgb(0,0,0)
+  fill: rgb(0, 0, 0);
+  stroke-width: 1;
+  stroke: rgb(0, 0, 0);
 }
 
 body {
