@@ -5,9 +5,7 @@
 
 ## Built With
 
-- Major languages: html, css, javascript
-- Frameworks: figma
-- Technologies used
+- Major languages: html, css
 
 ## Live Demo (if available)
 
@@ -22,33 +20,14 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/jaferIdrees)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/@jafer_l)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedin.com/in/ja-fer-yousef-20950840)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
