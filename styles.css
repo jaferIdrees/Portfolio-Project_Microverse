@@ -110,6 +110,10 @@ a {
   text-decoration: none;
 }
 
+.imgPlaceholder {
+  height: 474px;
+}
+
 .gridContainer,
 .gridContainerAM {
   display: grid;
