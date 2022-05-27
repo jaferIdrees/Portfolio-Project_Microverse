@@ -55,7 +55,6 @@
   align-items: space-around;
   margin: 0 0 0 0;
   padding: 0;
-  border: 1px solid red;
 }
 
 .pageSection {
@@ -111,15 +110,12 @@ a {
   text-decoration: none;
 }
 
-.gridContainer {
+.gridContainer,
+.gridContainerAM {
   display: grid;
   gap: 10px;
   padding: 10px;
   grid-template-rows: auto;
-}
-
-.gridCell {
-  border: 1px solid green;
 }
 
 .workTitle {
@@ -144,11 +140,12 @@ a {
   color: #172b4d;
 }
 
-.langContainer {
+.langContainer,
+.langList {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  width: 80%;
+  width: 327px;
   flex-direction: row;
   align-items: center;
   padding: 0;
@@ -162,18 +159,23 @@ a {
   font-weight: 600;
   font-size: 12px;
   line-height: 3em;
+  color: #3a4a42;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 12px;
+  padding: 4px 6px;
   border-radius: 4px;
+  letter-spacing: 0.03em;
 }
 
-.cardContainer {
+.cardContainer,
+.cardAM {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 12px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
 }
 
 .projectTitle {
@@ -200,4 +202,80 @@ a {
 .seeBtn:hover {
   cursor: pointer;
   background: #5fdfaa;
+}
+
+.h1aboutMe {
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.p_aboutMe {
+  width: 351px;
+  height: 189px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.aboutMeBtn {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.aboutMeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("images/aboutMeBckgrnd1.svg"), url("images/aboutMeBckgrnd2.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom, right top;
+}
+
+#aboutMeimg {
+  float: right;
+}
+
+.gridContainerAM {
+  display: grid;
+}
+
+.cardAM {
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  width: 327px;
+  height: 352px;
+}
+
+.langName {
+  background: #fff;
+  border-radius: 8px;
+  color: #36b37e;
+}
+
+.langList {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 327px;
+}
+
+.aboutMeCardCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
