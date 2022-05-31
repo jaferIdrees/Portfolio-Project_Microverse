@@ -301,6 +301,9 @@ a {
 .contact_form {
   display: flex;
   flex-direction: column;
+  background-image: url(images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .cf_text {
