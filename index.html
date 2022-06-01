@@ -187,13 +187,34 @@
         </ul>
       </div>
     </section>
-
-    <footer class="contact_form">
+    <footer class="contact_footer">
       <p class="cf_text">
         I'm always interested in hearing about new projects,
         so if you'd like to chat please get in touch.
       </p>
+      <form class="contact_form" action="https://formspree.io/f/mqknnnwq" method="post">
+        <ul class="ul_text">
+
+          <li class="li_text"><input type="text" class="input_text" name="full_name" required maxlength="30"
+              placeholder="Full Name"></li>
+          <li class="li_text"><input type="email" class="input_text" name="email_address" required
+              placeholder="Email address"></li>
+          <li class="li_text li_textarea "><textarea rows="6" class="li_textarea" required maxlength="500"
+              placeholder="Enter text here" name="message">  </textarea></li>
+
+          <li class="li_text li_btn"><button type="submit" class="aboutMeBtn seeBtn">Get in touch</button></li>
+        </ul>
+      </form>
+      <ul class="pageSection footer_socialMedia cf_socialMedia">
+        <li> <a href="#" class="smIcom"><img src="images/twitter.svg" alt="twitter"></a> </li>
+        <li> <a href="#" class="smIcom"><img src="images/Linkedin_icon.svg" alt="linkedin"></a> </li>
+        <li> <a href="#" class="smIcom"><img src="images/medium.svg" alt="medium"></a> </li>
+        <li> <a href="#" class="smIcom"><img src="images/github.svg" alt="github"></a> </li>
+        <li> <a href="#" class="smIcom"><img src="images/angellist.svg" alt="angellist"></a> </li>
+      </ul>
     </footer>
+
+    <p class="p_aboutMe">myemailhere@email.com</p>
   </div>
 </body>
 
