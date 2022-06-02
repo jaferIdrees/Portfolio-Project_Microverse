@@ -217,7 +217,7 @@ a {
   background: #5fdfaa;
 }
 
-.h1aboutMe {
+.h2aboutMe {
   height: 48px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -383,8 +383,10 @@ a {
 
 /* desktop design */
 
-.desktop_menu {
+.desktop_menu,
+#hrLine {
   visibility: hidden;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -530,7 +532,8 @@ a {
     display: none;
   }
 
-  .gridContainer {
+  .gridContainer,
+  .gridContainerAM {
     width: 80vw;
     grid-template-columns: 369px 369px 369px;
     margin-left: 20px;
@@ -541,6 +544,7 @@ a {
   .cardContainer {
     padding: 0;
     margin: 0;
+    padding-bottom: 10px;
   }
 
   .gridCell {
@@ -570,5 +574,94 @@ a {
 
   .langContainer {
     padding-bottom: 15px;
+  }
+
+  /* About Me page styling */
+
+  .aboutMeBox {
+    background-image: url("images/illustration-about-me-2-desktop.svg"), url("images/illustration_aboutme_desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left center, right top;
+    background-position-y: 90%, top;
+    width: 70vw;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  .p_aboutMe {
+    padding: 0;
+    width: 65%;
+  }
+
+  /* Contact Form Styling */
+
+  .contact_footer {
+    display: inline;
+    width: 75%;
+    background-image: url("images/cf_left.png"), url("images/cf_center.png"), url("images/cf_right.png");
+    background-position: left bottom, center bottom, right bottom;
+    background-position-x: left, 23%, right;
+    background-position-y: bottom, 87%, bottom;
+    padding: 7.5%;
+    padding-top: 2%;
+  }
+
+  .cf_text {
+    float: left;
+    width: 25vw;
+    font-size: 30px;
+    padding: 0;
+    margin-top: 164px;
+    padding-top: 40px;
+  }
+
+  .contact_form {
+    float: right;
+    width: 35vw;
+    padding: 0;
+    margin-top: 164px;
+  }
+
+  .li_btn {
+    justify-content: flex-start;
+  }
+
+  .cf_socialMedia {
+    clear: both;
+    position: relative;
+    left: 38%;
+    top: 250px;
+    padding-bottom: 50px;
+  }
+
+  #hrLine {
+    width: 100%;
+    display: block;
+    visibility: visible;
+  }
+
+  .footer_email {
+    visibility: hidden;
+    display: none;
+  }
+
+  .footer_socialMedia :nth-child(4) {
+    order: 1;
+  }
+
+  .footer_socialMedia :nth-child(2) {
+    order: 2;
+  }
+
+  .footer_socialMedia :nth-child(5) {
+    order: 3;
+  }
+
+  .footer_socialMedia :nth-child(1) {
+    order: 4;
+  }
+
+  .footer_socialMedia :nth-child(3) {
+    order: 5;
   }
 }
