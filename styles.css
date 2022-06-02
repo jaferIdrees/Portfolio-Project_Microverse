@@ -388,6 +388,8 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  /* First page styling */
+
   .mainSection {
     background-image: none;
     justify-content: center;
@@ -507,5 +509,66 @@ a {
   .nextPageIcon {
     position: relative;
     top: -40%;
+  }
+
+  /* (end) First page styling */
+
+  /* Recent works styling */
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #h1WorkTitle {
+    width: 100%;
+  }
+
+  #indicImg {
+    visibility: hidden;
+    display: none;
+  }
+
+  .gridContainer {
+    width: 80vw;
+    grid-template-columns: 369px 369px 369px;
+    margin-left: 20px;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .cardContainer {
+    padding: 0;
+    margin: 0;
+  }
+
+  .gridCell {
+    padding: 0;
+  }
+
+  .imgPlaceholder {
+    width: 100%;
+    height: 252px;
+    object-fit: cover;
+    padding: 0;
+    src: url(images/Img_Plaholder_dt.svg);
+  }
+
+  .projectTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    flex: 1;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .langContainer {
+    padding-bottom: 15px;
   }
 }
