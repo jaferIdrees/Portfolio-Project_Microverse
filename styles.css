@@ -1,7 +1,6 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 2vh 5vw;
 }
 
@@ -73,7 +72,7 @@
   font-family: 'Inter', sans-serif;
 }
 
-.ndText {
+.♥ {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -218,7 +217,7 @@ a {
   background: #5fdfaa;
 }
 
-.h1aboutMe {
+.h2aboutMe {
   height: 48px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -380,4 +379,289 @@ a {
   align-self: center;
   justify-content: space-around;
   width: 170px;
+}
+
+/* desktop design */
+
+.desktop_menu,
+#hrLine {
+  visibility: hidden;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* First page styling */
+
+  .mainSection {
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page1Container {
+    background-image: url("images/Header-llustration-desktop.svg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 255px;
+  }
+
+  .welcome,
+  .vector_container {
+    display: none;
+    visibility: hidden;
+  }
+
+  .desktop_menu {
+    visibility: visible;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    text-align: center;
+    color: #344563;
+    flex: 1;
+  }
+
+  .stText,
+  .ndText {
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 125%;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: #172b4d;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ndText {
+    color: green;
+  }
+
+  .titleText {
+    flex-grow: 0;
+    margin-top: 140px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #172b4d;
+    padding-right: 16.5%;
+    padding-left: 16.5%;
+    margin-bottom: 0;
+  }
+
+  .socialMedia {
+    position: relative;
+    top: -40%;
+    justify-content: center;
+    flex: 0;
+  }
+
+  .socialMedia :nth-child(4) {
+    order: 1;
+  }
+
+  .socialMedia :nth-child(2) {
+    order: 2;
+  }
+
+  .socialMedia :nth-child(5) {
+    order: 3;
+  }
+
+  .socialMedia :nth-child(1) {
+    order: 4;
+  }
+
+  .socialMedia :nth-child(3) {
+    order: 5;
+  }
+
+  .smIcon {
+    margin: 20px;
+  }
+
+  .nextPageIcon {
+    position: relative;
+    top: -40%;
+  }
+
+  /* (end) First page styling */
+
+  /* Recent works styling */
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #h1WorkTitle {
+    width: 100%;
+  }
+
+  #indicImg {
+    visibility: hidden;
+    display: none;
+  }
+
+  .gridContainer,
+  .gridContainerAM {
+    width: 80vw;
+    grid-template-columns: 369px 369px 369px;
+    margin-left: 20px;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .cardContainer {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .gridCell {
+    padding: 0;
+  }
+
+  .imgPlaceholder {
+    width: 100%;
+    height: 252px;
+    object-fit: cover;
+    padding: 0;
+    src: url(images/Img_Plaholder_dt.svg);
+  }
+
+  .projectTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    flex: 1;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .langContainer {
+    padding-bottom: 15px;
+  }
+
+  /* About Me page styling */
+
+  .aboutMeBox {
+    background-image: url("images/illustration-about-me-2-desktop.svg"), url("images/illustration_aboutme_desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left center, right top;
+    background-position-y: 90%, top;
+    width: 70vw;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  .p_aboutMe {
+    padding: 0;
+    width: 65%;
+  }
+
+  /* Contact Form Styling */
+
+  .contact_footer {
+    display: inline;
+    width: 75%;
+    background-image: url("images/cf_left.png"), url("images/cf_center.png"), url("images/cf_right.png");
+    background-position: left bottom, center bottom, right bottom;
+    background-position-x: left, 23%, right;
+    background-position-y: bottom, 87%, bottom;
+    padding: 7.5%;
+    padding-top: 2%;
+  }
+
+  .cf_text {
+    float: left;
+    width: 25vw;
+    font-size: 30px;
+    padding: 0;
+    margin-top: 164px;
+    padding-top: 40px;
+  }
+
+  .contact_form {
+    float: right;
+    width: 35vw;
+    padding: 0;
+    margin-top: 164px;
+  }
+
+  .li_btn {
+    justify-content: flex-start;
+  }
+
+  .cf_socialMedia {
+    clear: both;
+    position: relative;
+    left: 38%;
+    top: 250px;
+    padding-bottom: 50px;
+  }
+
+  #hrLine {
+    width: 100%;
+    display: block;
+    visibility: visible;
+  }
+
+  .footer_email {
+    visibility: hidden;
+    display: none;
+  }
+
+  .footer_socialMedia :nth-child(4) {
+    order: 1;
+  }
+
+  .footer_socialMedia :nth-child(2) {
+    order: 2;
+  }
+
+  .footer_socialMedia :nth-child(5) {
+    order: 3;
+  }
+
+  .footer_socialMedia :nth-child(1) {
+    order: 4;
+  }
+
+  .footer_socialMedia :nth-child(3) {
+    order: 5;
+  }
 }
