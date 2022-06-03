@@ -382,6 +382,15 @@ a {
 }
 
 /* Animation */
+.seeBtn {
+  transition-property: transform, color;
+  transition-duration: 2s;
+}
+
+.seeBtn:hover {
+  transform: scale(1.2);
+  color: yellow;
+}
 
 .stText {
   animation-duration: 4s;
