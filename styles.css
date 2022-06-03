@@ -70,9 +70,11 @@
   font-size: 40px;
   line-height: 52px;
   font-family: 'Inter', sans-serif;
+  animation-duration: 4s;
+  animation-name: slide-out;
 }
 
-.♥ {
+.ndText {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -379,6 +381,30 @@ a {
   align-self: center;
   justify-content: space-around;
   width: 170px;
+}
+
+/* Animation */
+
+button {
+  transition-property: transform, color;
+  transition-duration: 2s;
+}
+
+button:hover {
+  transform: scale(1.2);
+  color: yellow;
+}
+
+@keyframes slide-out {
+  from {
+    width: 300%;
+    font-size: 120px;
+  }
+
+  to {
+    width: 100%;
+    font-size: 80px;
+  }
 }
 
 /* desktop design */
