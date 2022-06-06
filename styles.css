@@ -505,7 +505,7 @@ button:hover {
 
   .socialMedia {
     position: relative;
-    top: -40%;
+    top: -10%;
     justify-content: center;
     flex: 0;
   }
@@ -536,7 +536,7 @@ button:hover {
 
   .nextPageIcon {
     position: relative;
-    top: -40%;
+    top: -10%;
   }
 
   /* (end) First page styling */
