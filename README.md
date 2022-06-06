@@ -1,4 +1,4 @@
-# Portfolio Project
+# Ja'fer's Portfolio
 
 > We are creating a portfolio project for Microverse course .
 
@@ -9,7 +9,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jaferidrees.github.io/Portfolio-Project_Microverse/)
 
 
 ## Getting Started
