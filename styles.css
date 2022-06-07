@@ -425,7 +425,6 @@ button:hover {
 
   .page1Container {
     background-image: url("images/Header-llustration-desktop.svg");
-    /* height: 100vh; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
