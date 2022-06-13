@@ -1,12 +1,18 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2vh 5vw;
 }
 
 .vector_container {
   display: flex;
   flex-direction: column;
+  align-content:space-between;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  /*overflow: hidden;*/
 }
 
 .welcome {
@@ -19,20 +25,58 @@
 
 .vector {
   fill: rgb(0, 0, 0);
-  stroke-width: 3;
+  stroke-width: 2;
   stroke: rgb(0, 0, 0);
-  width: 40px;
+  width: 18px;
   height: 3px;
+  margin: 0;
 }
 
 .vectSvg {
-  position: relative;
-  top: 0;
+  margin: 0;
+  padding: 0;
   width: 30px;
-  height: 3px;
+  height: 2px;
+  margin: 2px;
+  overflow: visible;
 }
 
-.vect2 {
+.vectLine {
+  stroke:#acb7c3;
+  stroke-width:2;
+  z-index: 0;
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+.vectCross {
+  z-index: 9;
+  stroke:rgb(26, 23, 23);
+  stroke-width:2
+}
+
+.mobMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobMenu:nth-child(2){
+  margin-bottom: auto;
+}
+.mobMenuItem {
+font-family: 'Inter' , sans-serif;;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+color: #3a4a42;
+margin-bottom: 40px;
+}
+
+/*.vect2 {
   position: relative;
   top: -10px;
 }
@@ -40,13 +84,13 @@
 .vect3 {
   position: relative;
   top: -20px;
-}
+}*/
 
-.vector:hover {
+/*.vector:hover {
   fill: rgb(55, 12, 224);
   stroke-width: 1;
   stroke: rgb(55, 12, 224);
-}
+}*/
 
 .page1Container {
   display: flex;
