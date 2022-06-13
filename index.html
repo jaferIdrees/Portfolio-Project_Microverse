@@ -15,29 +15,32 @@
   <div class="page1Container">
     <header class="header">
       <a href="">
-        <p class="welcome"> <strong>Welcome</strong></p>
+        <p class="welcome collapse"> <strong>Welcome</strong></p>
       </a>
       <a href="" class="desktop_menu">Portfolio</a>
       <a href="#about" class="desktop_menu">About</a>
       <a href="#contact" class="desktop_menu">Contact</a>
-      <div class="vector_container">
-        <a href="">
+      <a href="#" id="burgerMenu">
+        <div class="vector_container">
           <svg class="vectSvg vect1">
-            <rect class="vector" height="2" width="16" />
+            <line x1="0" y1="0" x2="18" y2="0" class="vectLine collapse" />
+            <line x1="0" y1="0" x2="12" y2="12" class="vectCross collapse hide" />
+            <line x1="0" y1="12" x2="12" y2="0" class="vectCross collapse hide" />
           </svg>
-        </a>
-        <a href="">
           <svg class="vectSvg vect2">
-            <rect class="vector" height="2" width="16" />
+            <line x1="0" y1="0" x2="18" y2="0" class="vectLine collapse" />
           </svg>
-        </a>
-        <a href="">
           <svg class="vectSvg vect3">
-            <rect class="vector" height="2" width="16" />
+            <line x1="0" y1="0" x2="18" y2="0" class="vectLine collapse" />
           </svg>
-        </a>
-      </div>
+        </div>
+      </a>
     </header>
+    <nav class="mobMenu collapse hide">
+      <a href="#" class="mobMenuItem collapse hide">Portfolio</a>
+      <a href="#about" class="mobMenuItem collapse hide">About</a>
+      <a href="#contact" class="mobMenuItem collapse hide">Contact</a>
+    </nav>
     <section class="mainSection">
       <article class="pageSection titleText">
         <h1 class="stText">
@@ -222,6 +225,7 @@
     <hr id="hrLine" />
     <p class="p_aboutMe footer_email">myemailhere@email.com</p>
   </div>
+  <script src="./script.js"></script>
 </body>
 
 </html>

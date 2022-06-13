@@ -1,12 +1,18 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2vh 5vw;
 }
 
 .vector_container {
   display: flex;
   flex-direction: column;
+  align-content: space-between;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  margin-top: 50px;
 }
 
 .welcome {
@@ -19,33 +25,59 @@
 
 .vector {
   fill: rgb(0, 0, 0);
-  stroke-width: 3;
+  stroke-width: 2;
   stroke: rgb(0, 0, 0);
-  width: 40px;
+  width: 18px;
   height: 3px;
+  margin: 0;
 }
 
 .vectSvg {
-  position: relative;
-  top: 0;
+  padding: 0;
   width: 30px;
-  height: 3px;
+  height: 2px;
+  margin: 2px;
+  overflow: visible;
 }
 
-.vect2 {
-  position: relative;
-  top: -10px;
+.vectLine {
+  stroke: #acb7c3;
+  stroke-width: 2;
+  z-index: 0;
 }
 
-.vect3 {
-  position: relative;
-  top: -20px;
+.hide {
+  visibility: hidden;
+  display: none;
 }
 
-.vector:hover {
-  fill: rgb(55, 12, 224);
-  stroke-width: 1;
-  stroke: rgb(55, 12, 224);
+.vectCross {
+  stroke: #acb7c3;
+  stroke-width: 2px;
+}
+
+.mobMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullHeight {
+  height: 75vh;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.mobMenuItem {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  margin-bottom: 40px;
+  padding-left: 28px;
 }
 
 .page1Container {
