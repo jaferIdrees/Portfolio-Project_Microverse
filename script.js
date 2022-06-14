@@ -64,5 +64,8 @@ document.querySelectorAll('.seeBtn').forEach((btn) => {
     popUpDiv.id = 'popUpWindow';
     const originalPage = document.querySelector('.allPage');
     document.body.replaceChild(popUpDiv, document.querySelector('.allPage'));
+    document.querySelector('.closeIcon').addEventListener('click', () => {
+    document.body.replaceChild(originalPage, popUpDiv);
+    });
   });
 });
