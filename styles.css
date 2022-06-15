@@ -909,3 +909,11 @@ button:hover {
     flex-grow: 1;
   }
 }
+
+.messageText {
+
+}
+
+.messageText:empty {
+ border: none;
+}
