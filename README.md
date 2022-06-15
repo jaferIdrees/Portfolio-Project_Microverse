@@ -28,6 +28,10 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/@jafer_l)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedin.com/in/ja-fer-yousef-20950840)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/Hannziegel)
+
 
 ## 🤝 Contributing
 
