@@ -10,27 +10,27 @@ document.querySelectorAll('.mobMenuItem').forEach((element) => {
 });
 document.querySelectorAll('.seeBtn').forEach((btn) => {
   btn.addEventListener('click', (event) => {
-    let popUpDiv = document.createElement('div');
-    let projectImage = document.createElement('img');
+    const popUpDiv = document.createElement('div');
+    const projectImage = document.createElement('img');
     projectImage.className = 'puImg';
-    let closeAnchor = document.createElement('a');
+    const closeAnchor = document.createElement('a');
     closeAnchor.className = 'closeIcon';
-    let projectTitle = document.createElement('h2');
+    const projectTitle = document.createElement('h2');
     projectTitle.className = 'puPTitle';
-    let projectUl = document.createElement('ul');
+    const projectUl = document.createElement('ul');
     projectUl.className = 'puLangCont';
-    let projectDesc = document.createElement('p');
+    const projectDesc = document.createElement('p');
     projectDesc.className = 'puMainText';
-    let projectBtns = document.createElement('div');
+    const projectBtns = document.createElement('div');
     projectBtns.className = 'puBtns';
-    let btn1 = document.createElement('button');
+    const btn1 = document.createElement('button');
     btn1.innerText = 'See Live';
     btn1.className = 'btn1';
-    let btn2 = document.createElement('button');
+    const btn2 = document.createElement('button');
     btn2.innerText = 'See Source';
     btn2.className = 'btn1';
     btn2.classList.add('btn2');
-    let projectsInfo = [
+    const projectsInfo = [
       {
         name: 'Keeping track of hundreds of components',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
@@ -80,14 +80,14 @@ document.querySelectorAll('.seeBtn').forEach((btn) => {
         'link to source': 'www.test1.com',
       },
     ];
-    let ProjectId = parseInt(event.target.id, 10);
+    const ProjectId = parseInt(event.target.id, 10);
     popUpDiv.appendChild(closeAnchor);
     projectImage.src = projectsInfo[ProjectId]['featured image'];
     popUpDiv.appendChild(projectImage);
     projectTitle.textContent = projectsInfo[ProjectId].name;
     popUpDiv.appendChild(projectTitle);
-    for (let i = 0; i < projectsInfo[ProjectId].technologies.length; i++) {
-      let projectLi = document.createElement('li');
+    for (let i = 0; i < projectsInfo[ProjectId].technologies.length; i += 1) {
+      const projectLi = document.createElement('li');
       projectLi.className = 'lang';
       projectLi.textContent = projectsInfo[ProjectId].technologies[i];
       projectUl.appendChild(projectLi);
