@@ -924,5 +924,5 @@ button:hover {
 }
 
 .messageText:empty {
- border: none;
+  border: none;
 }
