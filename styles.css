@@ -151,6 +151,7 @@ a {
 
 .imgPlaceholder {
   height: 474px;
+  width: 100%;
 }
 
 .gridContainer,
@@ -220,6 +221,10 @@ a {
   padding: 10px 12px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+}
+
+.cardContainer {
+  height: 100%;
 }
 
 .projectTitle {
