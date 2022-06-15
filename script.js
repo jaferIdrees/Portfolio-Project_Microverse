@@ -157,3 +157,22 @@ document.querySelectorAll('.mobMenuItem').forEach((element) => {
     document.querySelector('.mobMenu').classList.toggle('fullHeight');
   });
 });
+
+/* Contact form validation */
+// show a message with a type of the input
+function showMessage(input, message, type) {
+  // get the <small> element and set the message
+  const msg = input.parentNode.parentNode.querySelector('.messageText');
+  msg.innerText = message;
+  // update the class for the input
+  input.parentNode.className = type ? 'success' : 'error';
+  return type;
+}
+const contactForm = document.forms[0];
+contactForm.addEventListener('submit', (event) => {
+  showMessage(contactForm.email_address, '', true);
+  if (contactForm.email_address.value.match(/[A-Z]/)) {
+    showMessage(contactForm.email_address, 'Please enter the email in lowercase. Form not sent!', false);
+    event.preventDefault();
+  }
+});
