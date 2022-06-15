@@ -12,218 +12,220 @@
 </head>
 
 <body>
-  <div class="page1Container">
-    <header class="header">
-      <a href="">
-        <p class="welcome collapse"> <strong>Welcome</strong></p>
-      </a>
-      <a href="" class="desktop_menu">Portfolio</a>
-      <a href="#about" class="desktop_menu">About</a>
-      <a href="#contact" class="desktop_menu">Contact</a>
-      <a href="#" id="burgerMenu">
-        <div class="vector_container">
-          <svg class="vectSvg vect1">
-            <line x1="0" y1="0" x2="18" y2="0" class="vectLine collapse" />
-            <line x1="0" y1="0" x2="12" y2="12" class="vectCross collapse hide" />
-            <line x1="0" y1="12" x2="12" y2="0" class="vectCross collapse hide" />
-          </svg>
-          <svg class="vectSvg vect2">
-            <line x1="0" y1="0" x2="18" y2="0" class="vectLine collapse" />
-          </svg>
-          <svg class="vectSvg vect3">
-            <line x1="0" y1="0" x2="18" y2="0" class="vectLine collapse" />
-          </svg>
+  <div class="allPage">
+    <div class="page1Container">
+      <header class="header">
+        <a href="">
+          <p class="welcome collapse"> <strong>Welcome</strong></p>
+        </a>
+        <a href="" class="desktop_menu">Portfolio</a>
+        <a href="#about" class="desktop_menu">About</a>
+        <a href="#contact" class="desktop_menu">Contact</a>
+        <a href="#" id="burgerMenu">
+          <div class="vector_container">
+            <svg class="vectSvg vect1">
+              <line x1="0" y1="0" x2="18" y2="0" class="vectLine collapse" />
+              <line x1="0" y1="0" x2="12" y2="12" class="vectCross collapse hide" />
+              <line x1="0" y1="12" x2="12" y2="0" class="vectCross collapse hide" />
+            </svg>
+            <svg class="vectSvg vect2">
+              <line x1="0" y1="0" x2="18" y2="0" class="vectLine collapse" />
+            </svg>
+            <svg class="vectSvg vect3">
+              <line x1="0" y1="0" x2="18" y2="0" class="vectLine collapse" />
+            </svg>
+          </div>
+        </a>
+      </header>
+      <nav class="mobMenu collapse hide">
+        <a href="#" class="mobMenuItem collapse hide" id="portfolioA">Portfolio</a>
+        <a href="#about" class="mobMenuItem collapse hide">About</a>
+        <a href="#contact" class="mobMenuItem collapse hide">Contact</a>
+      </nav>
+      <section class="mainSection">
+        <article class="pageSection titleText">
+          <h1 class="stText">
+            Hey there. I’m Ja'fer <br>
+            <span class="ndText">
+              I’m a software developer
+            </span>
+          </h1>
+        </article>
+        <article class="pageSection">
+          <p class="text">
+            I can help you build a product , feature or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to contact me.
+          </p>
+        </article>
+        <ul class="pageSection socialMedia">
+          <li> <a href="#" class="smIcon"><img src="images/twitter.svg" alt="Twitter Link"></a> </li>
+          <li> <a href="#" class="smIcon"><img src="images/Linkedin_icon.svg" alt="LinkedIn Link"></a> </li>
+          <li> <a href="#" class="smIcon"><img src="images/medium.svg" alt="Medium Link"></a> </li>
+          <li> <a href="#" class="smIcon"><img src="images/github.svg" alt="GitHub Link"></a> </li>
+          <li> <a href="#" class="smIcon"><img src="images/angellist.svg" alt="Angell Link"></a> </li>
+        </ul>
+        <div class="nextPageIcon">
+          <a href=""><img src="images/Disabled.svg" alt="Next Page"></a>
         </div>
-      </a>
-    </header>
-    <nav class="mobMenu collapse hide">
-      <a href="#" class="mobMenuItem collapse hide">Portfolio</a>
-      <a href="#about" class="mobMenuItem collapse hide">About</a>
-      <a href="#contact" class="mobMenuItem collapse hide">Contact</a>
-    </nav>
-    <section class="mainSection">
-      <article class="pageSection titleText">
-        <h1 class="stText">
-          Hey there. I’m Ja'fer <br>
-          <span class="ndText">
-            I’m a software developer
-          </span>
-        </h1>
-      </article>
-      <article class="pageSection">
-        <p class="text">
-          I can help you build a product , feature or website Look through some of my work and experience! If you like
-          what you see and have a project you need coded, don’t hestiate to contact me.
-        </p>
-      </article>
-      <ul class="pageSection socialMedia">
-        <li> <a href="#" class="smIcon"><img src="images/twitter.svg" alt="Twitter Link"></a> </li>
-        <li> <a href="#" class="smIcon"><img src="images/Linkedin_icon.svg" alt="LinkedIn Link"></a> </li>
-        <li> <a href="#" class="smIcon"><img src="images/medium.svg" alt="Medium Link"></a> </li>
-        <li> <a href="#" class="smIcon"><img src="images/github.svg" alt="GitHub Link"></a> </li>
-        <li> <a href="#" class="smIcon"><img src="images/angellist.svg" alt="Angell Link"></a> </li>
-      </ul>
-      <div class="nextPageIcon">
-        <a href=""><img src="images/Disabled.svg" alt="Next Page"></a>
+      </section>
+    </div>
+    <div class="workTitle">
+      <h2 id="h1WorkTitle">My Recent Works</h2>
+      <img id="indicImg" src="images/Indicator.svg" alt="">
+    </div>
+    <section class="gridContainer">
+      <div class="gridCell works">
+        <article class="cardContainer">
+          <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
+          <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
+          <ul class="langContainer">
+            <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
+            <li class="lang"><a class="lang" href="">css</a></li>
+            <li class="lang"><a class="lang" href="">JavScript</a></li>
+            <li class="lang"><a class="lang" href="">html</a></li>
+          </ul>
+          <button type="button" class="seeBtn" id="0">See Project</button>
+        </article>
+      </div>
+      <div class="gridCell work">
+        <article class="cardContainer">
+          <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
+          <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
+          <ul class="langContainer">
+            <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
+            <li class="lang"><a class="lang" href="">css</a></li>
+            <li class="lang"><a class="lang" href="">JavScript</a></li>
+            <li class="lang"><a class="lang" href="">html</a></li>
+          </ul>
+          <button type="button" class="seeBtn" id="1">See Project</button>
+        </article>
+      </div>
+      <div class="gridCell work">
+        <article class="cardContainer">
+          <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
+          <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
+          <ul class="langContainer">
+            <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
+            <li class="lang"><a class="lang" href="">css</a></li>
+            <li class="lang"><a class="lang" href="">JavScript</a></li>
+            <li class="lang"><a class="lang" href="">html</a></li>
+          </ul>
+          <button type="button" class="seeBtn" id="2">See Project</button>
+        </article>
+      </div>
+      <div class="gridCell work">
+        <article class="cardContainer">
+          <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
+          <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
+          <ul class="langContainer">
+            <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
+            <li class="lang"><a class="lang" href="">css</a></li>
+            <li class="lang"><a class="lang" href="">JavScript</a></li>
+            <li class="lang"><a class="lang" href="">html</a></li>
+          </ul>
+          <button type="button" class="seeBtn" id="3">See Project</button>
+        </article>
+      </div>
+      <div class="gridCell work">
+        <article class="cardContainer">
+          <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
+          <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
+          <ul class="langContainer">
+            <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
+            <li class="lang"><a class="lang" href="">css</a></li>
+            <li class="lang"><a class="lang" href="">JavScript</a></li>
+            <li class="lang"><a class="lang" href="">html</a></li>
+          </ul>
+          <button type="button" class="seeBtn" id="4">See Project</button>
+        </article>
+      </div>
+      <div class="gridCell work">
+        <article class="cardContainer">
+          <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
+          <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
+          <ul class="langContainer">
+            <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
+            <li class="lang"><a class="lang" href="">css</a></li>
+            <li class="lang"><a class="lang" href="">JavScript</a></li>
+            <li class="lang"><a class="lang" href="">html</a></li>
+          </ul>
+          <button type="button" class="seeBtn" id="5">See Project</button>
+        </article>
       </div>
     </section>
-  </div>
-  <div class="workTitle">
-    <h2 id="h1WorkTitle">My Recent Works</h2>
-    <img id="indicImg" src="images/Indicator.svg" alt="">
-  </div>
-  <section class="gridContainer">
-    <div class="gridCell works">
-      <article class="cardContainer">
-        <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
-        <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
-        <ul class="langContainer">
-          <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
-          <li class="lang"><a class="lang" href="">css</a></li>
-          <li class="lang"><a class="lang" href="">JavScript</a></li>
-          <li class="lang"><a class="lang" href="">html</a></li>
-        </ul>
-        <button type="button" class="seeBtn">See Project</button>
-      </article>
-    </div>
-    <div class="gridCell work">
-      <article class="cardContainer">
-        <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
-        <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
-        <ul class="langContainer">
-          <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
-          <li class="lang"><a class="lang" href="">css</a></li>
-          <li class="lang"><a class="lang" href="">JavScript</a></li>
-          <li class="lang"><a class="lang" href="">html</a></li>
-        </ul>
-        <button type="button" class="seeBtn">See Project</button>
-      </article>
-    </div>
-    <div class="gridCell work">
-      <article class="cardContainer">
-        <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
-        <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
-        <ul class="langContainer">
-          <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
-          <li class="lang"><a class="lang" href="">css</a></li>
-          <li class="lang"><a class="lang" href="">JavScript</a></li>
-          <li class="lang"><a class="lang" href="">html</a></li>
-        </ul>
-        <button type="button" class="seeBtn">See Project</button>
-      </article>
-    </div>
-    <div class="gridCell work">
-      <article class="cardContainer">
-        <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
-        <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
-        <ul class="langContainer">
-          <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
-          <li class="lang"><a class="lang" href="">css</a></li>
-          <li class="lang"><a class="lang" href="">JavScript</a></li>
-          <li class="lang"><a class="lang" href="">html</a></li>
-        </ul>
-        <button type="button" class="seeBtn">See Project</button>
-      </article>
-    </div>
-    <div class="gridCell work">
-      <article class="cardContainer">
-        <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
-        <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
-        <ul class="langContainer">
-          <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
-          <li class="lang"><a class="lang" href="">css</a></li>
-          <li class="lang"><a class="lang" href="">JavScript</a></li>
-          <li class="lang"><a class="lang" href="">html</a></li>
-        </ul>
-        <button type="button" class="seeBtn">See Project</button>
-      </article>
-    </div>
-    <div class="gridCell work">
-      <article class="cardContainer">
-        <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
-        <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
-        <ul class="langContainer">
-          <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
-          <li class="lang"><a class="lang" href="">css</a></li>
-          <li class="lang"><a class="lang" href="">JavScript</a></li>
-          <li class="lang"><a class="lang" href="">html</a></li>
-        </ul>
-        <button type="button" class="seeBtn">See Project</button>
-      </article>
-    </div>
-  </section>
-  <article class="aboutMeBox" id="about">
-    <h2 class="h2aboutMe">About me
-    </h2>
-    <p class="p_aboutMe">I can help you build a product , feature or website Look through some of my work and
-      experience! If you like what you see and have a project you need coded,
-      <br>don’t hestiate to contact me.
-    </p>
-    <button type="button" class="aboutMeBtn seeBtn">Get My Resume</button>
-  </article>
-  <div class="aboutMeCardCont">
-    <section class="gridContainerAM">
-      <div class="cardAM">
-        <img src="images/icon-languages.svg" alt="Languages Icon" class="imageAmCard">
-        <h3 class="cardAMTitle">Languages</h3>
-        <ul class="langList">
-          <li class="lang langName"><a class="lang langName" href="">JavaScript</a></li>
-          <li class="lang langName"><a class="lang langName" href="">Ruby</a></li>
-          <li class="lang langName"><a class="lang langName" href="">Html </a></li>
-          <li class="lang langName"><a class="lang langName" href="">CSS</a></li>
-        </ul>
-      </div>
-      <div class="cardAM">
-        <img src="images/icon-frameworks.svg" alt="Frameworks Icon" class="imageAmCard">
-        <h3 class="cardAMTitle">Frameworks</h3>
-        <ul class="langList">
-          <li class="lang langName"><a class="lang langName" href="">Bootstrap</a></li>
-          <li class="lang langName"><a class="lang langName" href="">Ruby on rails</a></li>
-          <li class="lang langName"><a class="lang langName" href="">RSpec</a></li>
-          <li class="lang langName"><a class="lang langName" href="">Capybara</a></li>
-          <li class="lang langName"><a class="lang langName" href="">Selenium</a></li>
-        </ul>
-      </div>
-      <div class="cardAM">
-        <img src="images/icon-skills.svg" alt="Skills Icon" class="imageAmCard">
-        <h3 class="cardAMTitle">Skills</h3>
-        <ul class="langList">
-          <li class="lang langName"><a class="lang langName" href="">Codekit</a></li>
-          <li class="lang langName"><a class="lang langName" href="">GitHub</a></li>
-          <li class="lang langName"><a class="lang langName" href="">Codepen</a></li>
-          <li class="lang langName"><a class="lang langName" href="">Gitlab</a></li>
-          <li class="lang langName"><a class="lang langName" href="">Terminal</a></li>
-        </ul>
-      </div>
-    </section>
-    <footer class="contact_footer" id="contact">
-      <p class="cf_text">
-        I'm always interested in hearing about new projects,
-        so if you'd like to chat please get in touch.
+    <article class="aboutMeBox" id="about">
+      <h2 class="h2aboutMe">About me
+      </h2>
+      <p class="p_aboutMe">I can help you build a product , feature or website Look through some of my work and
+        experience! If you like what you see and have a project you need coded,
+        <br>don’t hestiate to contact me.
       </p>
-      <form class="contact_form" action="https://formspree.io/f/mqknnnwq" method="post">
-        <ul class="ul_text">
+      <button type="button" class="aboutMeBtn seeBtn">Get My Resume</button>
+    </article>
+    <div class="aboutMeCardCont">
+      <section class="gridContainerAM">
+        <div class="cardAM">
+          <img src="images/icon-languages.svg" alt="Languages Icon" class="imageAmCard">
+          <h3 class="cardAMTitle">Languages</h3>
+          <ul class="langList">
+            <li class="lang langName"><a class="lang langName" href="">JavaScript</a></li>
+            <li class="lang langName"><a class="lang langName" href="">Ruby</a></li>
+            <li class="lang langName"><a class="lang langName" href="">Html </a></li>
+            <li class="lang langName"><a class="lang langName" href="">CSS</a></li>
+          </ul>
+        </div>
+        <div class="cardAM">
+          <img src="images/icon-frameworks.svg" alt="Frameworks Icon" class="imageAmCard">
+          <h3 class="cardAMTitle">Frameworks</h3>
+          <ul class="langList">
+            <li class="lang langName"><a class="lang langName" href="">Bootstrap</a></li>
+            <li class="lang langName"><a class="lang langName" href="">Ruby on rails</a></li>
+            <li class="lang langName"><a class="lang langName" href="">RSpec</a></li>
+            <li class="lang langName"><a class="lang langName" href="">Capybara</a></li>
+            <li class="lang langName"><a class="lang langName" href="">Selenium</a></li>
+          </ul>
+        </div>
+        <div class="cardAM">
+          <img src="images/icon-skills.svg" alt="Skills Icon" class="imageAmCard">
+          <h3 class="cardAMTitle">Skills</h3>
+          <ul class="langList">
+            <li class="lang langName"><a class="lang langName" href="">Codekit</a></li>
+            <li class="lang langName"><a class="lang langName" href="">GitHub</a></li>
+            <li class="lang langName"><a class="lang langName" href="">Codepen</a></li>
+            <li class="lang langName"><a class="lang langName" href="">Gitlab</a></li>
+            <li class="lang langName"><a class="lang langName" href="">Terminal</a></li>
+          </ul>
+        </div>
+      </section>
+      <footer class="contact_footer" id="contact">
+        <p class="cf_text">
+          I'm always interested in hearing about new projects,
+          so if you'd like to chat please get in touch.
+        </p>
+        <form class="contact_form" action="https://formspree.io/f/mqknnnwq" method="post">
+          <ul class="ul_text">
 
-          <li class="li_text"><input type="text" class="input_text" name="full_name" required maxlength="30"
-              placeholder="Full Name"></li>
-          <li class="li_text"><input type="email" class="input_text" name="email_address" required
-              placeholder="Email address"></li>
-          <li class="li_text li_textarea "><textarea rows="6" class="li_textarea" required maxlength="500"
-              placeholder="Enter text here" name="message"></textarea></li>
+            <li class="li_text"><input type="text" class="input_text" name="full_name" required maxlength="30"
+                placeholder="Full Name"></li>
+            <li class="li_text"><input type="email" class="input_text" name="email_address" required
+                placeholder="Email address"></li>
+            <li class="li_text li_textarea "><textarea rows="6" class="li_textarea" required maxlength="500"
+                placeholder="Enter text here" name="message"></textarea></li>
 
-          <li class="li_text li_btn"><button type="submit" class="aboutMeBtn seeBtn">Get in touch</button></li>
+            <li class="li_text li_btn"><button type="submit" class="aboutMeBtn seeBtn">Get in touch</button></li>
+          </ul>
+        </form>
+        <ul class="pageSection footer_socialMedia cf_socialMedia">
+          <li> <a href="#" class="smIcom"><img src="images/twitter.svg" alt="twitter"></a> </li>
+          <li> <a href="#" class="smIcom"><img src="images/Linkedin_icon.svg" alt="linkedin"></a> </li>
+          <li> <a href="#" class="smIcom"><img src="images/medium.svg" alt="medium"></a> </li>
+          <li> <a href="#" class="smIcom"><img src="images/github.svg" alt="github"></a> </li>
+          <li> <a href="#" class="smIcom"><img src="images/angellist.svg" alt="angellist"></a> </li>
         </ul>
-      </form>
-      <ul class="pageSection footer_socialMedia cf_socialMedia">
-        <li> <a href="#" class="smIcom"><img src="images/twitter.svg" alt="twitter"></a> </li>
-        <li> <a href="#" class="smIcom"><img src="images/Linkedin_icon.svg" alt="linkedin"></a> </li>
-        <li> <a href="#" class="smIcom"><img src="images/medium.svg" alt="medium"></a> </li>
-        <li> <a href="#" class="smIcom"><img src="images/github.svg" alt="github"></a> </li>
-        <li> <a href="#" class="smIcom"><img src="images/angellist.svg" alt="angellist"></a> </li>
-      </ul>
-    </footer>
-    <hr id="hrLine" />
-    <p class="p_aboutMe footer_email">myemailhere@email.com</p>
+      </footer>
+      <hr id="hrLine" />
+      <p class="p_aboutMe footer_email">myemailhere@email.com</p>
+    </div>
   </div>
   <script src="./script.js"></script>
 </body>

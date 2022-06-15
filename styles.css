@@ -451,15 +451,14 @@ button:hover {
 
   .mainSection {
     background-image: none;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
   }
 
   .page1Container {
     background-image: url("images/Header-llustration-desktop.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     align-items: center;
   }
 
@@ -512,7 +511,7 @@ button:hover {
 
   .titleText {
     flex-grow: 0;
-    margin-top: 140px;
+    background-position: 50% center;
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
@@ -573,7 +572,8 @@ button:hover {
 
   /* Recent works styling */
 
-  body {
+  body,
+  .allPage {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -719,5 +719,188 @@ button:hover {
 
   .footer_socialMedia :nth-child(3) {
     order: 5;
+  }
+}
+
+/* project information popup window */
+
+/* mobile version */
+.popUpWindowMob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  position: absolute;
+  width: 343px;
+  left: calc(50% - 343px / 2);
+  top: 20px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 0;
+  z-index: 9;
+}
+
+.puPTitle {
+  width: 259px;
+  height: 135px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: left;
+  margin: 0;
+}
+
+.puLangCont {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  width: 327px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+}
+
+.puMainText {
+  width: 311px;
+  height: 313px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.puBtns {
+  display: flex;
+  justify-content: space-between;
+  width: 268px;
+}
+
+.btn1 {
+  background-image: url("images/live-icon.png");
+  background-position: 85% center;
+  width: 141px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 12px 16px;
+  gap: 12px;
+  background-color: #36b37f;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 12px;
+}
+
+.btn2 {
+  background-image: url('images/Icon -GitHub.png');
+  width: 158px;
+  margin-right: 0;
+}
+
+.puImg {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.closeIcon {
+  background: url('images/Icon - Cancel.png');
+  background-color: rgb(198, 195, 197, 0.5);
+  background-blend-mode: lighten;
+  height: 24px;
+  width: 24px;
+  float: right;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 3;
+}
+
+@media screen and (min-width: 768px) {
+  .popUpWindowMob {
+    width: 920px;
+    position: static;
+    top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .puImg {
+    width: 872px;
+    height: 616px;
+    flex: 1;
+    top: 0;
+  }
+
+  .popUpWindowMob :nth-child(1) {
+    order: 1;
+  }
+
+  .popUpWindowMob :nth-child(2) {
+    order: 2;
+  }
+
+  .popUpWindowMob :nth-child(6) {
+    order: 4;
+  }
+
+  .popUpWindowMob :nth-child(3) {
+    order: 3;
+  }
+
+  .popUpWindowMob :nth-child(4) {
+    order: 5;
+  }
+
+  .popUpWindowMob :nth-child(5) {
+    order: 6;
+  }
+
+  .puMainText,
+  .puLangCont {
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-right: auto;
+  }
+
+  .puLangCont {
+    width: 872px;
+  }
+
+  .puPTitle {
+    width: 589px;
+  }
+
+  .closeIcon {
+    position: static;
+    float: none;
+    background: url('./images/close_Icon2.png');
+    background-color: none;
+    background-blend-mode: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 400px;
+    height: 40px;
+    align-self: flex-end;
+    padding-left: auto;
+    flex-grow: 1;
   }
 }
