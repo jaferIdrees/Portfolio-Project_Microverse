@@ -165,7 +165,7 @@ function showMessage(input, message, type) {
   const msg = input.parentNode.parentNode.querySelector('.messageText');
   msg.innerText = message;
   // update the class for the input
-  input.className = type ? 'success' : 'error';
+  input.parentNode.className = type ? 'success' : 'error';
   return type;
 }
 const contactForm = document.forms[0];
