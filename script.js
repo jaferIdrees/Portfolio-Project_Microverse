@@ -49,8 +49,7 @@ const projectsInfo = [
   },
 ];
 
-/* storageAvailable function is used to check if the localstorage is available at client side 
-this function was coppied from https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API */
+/* storageAvailable function is used to check if the localstorage is available at client side this function was coppied from https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API */
 
 function storageAvailable(type) {
   let storage;
@@ -60,8 +59,7 @@ function storageAvailable(type) {
     storage.setItem(x, x);
     storage.removeItem(x);
     return true;
-  }
-  catch (e) {
+  } catch (e) {
     return e instanceof DOMException && (
       // everything except Firefox
       e.code === 22
@@ -98,7 +96,6 @@ function setContactFormData(contactFormData) {
   contactForm.email_address.value = currentData.email_address;
   contactForm.message.value = currentData.message;
 }
-
 
 function showProject(event) {
   const popUpDiv = document.createElement('div');
@@ -227,4 +224,3 @@ contactForm.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
-
