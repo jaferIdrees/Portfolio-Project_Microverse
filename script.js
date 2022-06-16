@@ -79,7 +79,7 @@ function storageAvailable(type) {
 const contactForm = document.forms[0];
 
 contactForm.addEventListener('change', () => {
-  if (storageAvailable(localStorage)) {
+  // if (storageAvailable(localStorage)) {
     const dataRecord = {
       full_name: contactForm.full_name.value,
       email_address: contactForm.email_address.value,
@@ -87,7 +87,7 @@ contactForm.addEventListener('change', () => {
     };
     const portfolioFormData = JSON.stringify(dataRecord);
     localStorage.setItem('portfolioFormData', portfolioFormData);
-  }
+  // }
 });
 
 function setContactFormData(contactFormData) {
