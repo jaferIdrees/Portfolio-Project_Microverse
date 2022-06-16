@@ -90,13 +90,6 @@ contactForm.addEventListener('change', () => {
   }
 });
 
-function setContactFormData(contactFormData) {
-  const currentData = JSON.parse(contactFormData);
-  contactForm.full_name.value = currentData.full_name;
-  contactForm.email_address.value = currentData.email_address;
-  contactForm.message.value = currentData.message;
-}
-
 function showProject(event) {
   const popUpDiv = document.createElement('div');
   const projectImage = document.createElement('img');
