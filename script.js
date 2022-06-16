@@ -48,6 +48,27 @@ const projectsInfo = [
     'link to source': 'www.test1.com',
   },
 ];
+
+// Use localStorage to store form data when changed
+const contactForm = document.forms[0];
+
+contactForm.addEventListener('change', () => {
+  const dataRecord = {
+    full_name: contactForm.full_name.value,
+    email_address: contactForm.email_address.value,
+    message: contactForm.message.value,
+  };
+  const portfolioFormData = JSON.stringify(dataRecord);
+  localStorage.setItem('portfolioFormData', portfolioFormData);
+});
+
+function setContactFormData(contactFormData) {
+  const currentData = JSON.parse(contactFormData);
+  contactForm.full_name.value = currentData.full_name;
+  contactForm.email_address.value = currentData.email_address;
+  contactForm.message.value = currentData.message;
+}
+
 function showProject(event) {
   const popUpDiv = document.createElement('div');
   const projectImage = document.createElement('img');
@@ -114,7 +135,6 @@ function showProject(event) {
         </article>
       </div> */
 window.addEventListener('load', () => {
-  // gridCell.className = ;
   for (let j = 0; j < projectsInfo.length; j += 1) {
     const cardContainer = document.createElement('article');
     cardContainer.className = 'cardContainer';
@@ -146,6 +166,7 @@ window.addEventListener('load', () => {
     gridCell.appendChild(cardContainer);
     projectsContainer.appendChild(gridCell);
   }
+  if (localStorage.getItem('portfolioFormData')) setContactFormData(localStorage.getItem('portfolioFormData'));
 });
 document.querySelector('#burgerMenu').addEventListener('click', () => {
   document.querySelectorAll('.collapse').forEach((element) => element.classList.toggle('hide'));
@@ -168,7 +189,6 @@ function showMessage(input, message, type) {
   input.parentNode.className = type ? 'success' : 'error';
   return type;
 }
-const contactForm = document.forms[0];
 contactForm.addEventListener('submit', (event) => {
   showMessage(contactForm.email_address, '', true);
   if (contactForm.email_address.value.match(/[A-Z]/)) {
