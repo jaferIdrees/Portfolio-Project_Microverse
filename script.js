@@ -1,18 +1,19 @@
 const projectsInfo = [
   {
-    name: 'Keeping track of hundreds of components',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    'featured image': 'images/Snapshoot_Portfolio.jpg',
-    technologies: ['Ruby on rails', 'css', 'JavaScript'],
-    'link to live version': 'www.test1.com',
-    'link to source': 'www.test1.com',
+    name: 'Explore meat Recipes of different cuisines',
+    description: `On this webapp you can check a list of different meat types with the related ranges of calories and total fat.
+    For each meat type you can check the available cuisine types and you can navigate to any available Recipe details.`,
+    'featured image': 'images/Nutrition_Explorer.png',
+    technologies: ['React', 'Bootstrap', 'JavaScript', 'Redux'],
+    'link to live version': 'https://jafer-meat-explorer.netlify.app/',
+    'link to source': 'https://github.com/jaferIdrees/nutrition-explorer',
   },
   {
-    name: 'Keeping track of hundreds of components',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    'featured image': 'images/Snapshoot_Portfolio2.png',
-    technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-    'link to live version': 'www.test1.com',
+    name: 'Keeping track of your daily tasks',
+    description: 'Interactive To Do List, draggable tasks, optimized for desktop and mobile screen sizes. It reserves data in local storage. Built with HTML, CSS, and JavaScript.',
+    'featured image': 'images/Todo.png',
+    technologies: ['GitHub', 'JavaScript', 'CSS', 'Webpack'],
+    'link to live version': 'https://jaferidrees.github.io/To-Do-List/dist/',
     'link to source': 'www.test1.com',
   },
   {
@@ -120,20 +121,6 @@ function showProject(event) {
   });
 }
 
-/* <section class="gridContainer">
-      <div class="gridCell works">
-        <article class="cardContainer">
-          <img src="images/Img_Plaholder.svg" alt="Image placeholder" class="imgPlaceholder">
-          <h3 class="projectTitle">Multi-Post Stories Gain+Glory</h3>
-          <ul class="langContainer">
-            <li class="lang"><a class="lang" href="">Ruby on rails</a></li>
-            <li class="lang"><a class="lang" href="">css</a></li>
-            <li class="lang"><a class="lang" href="">JavScript</a></li>
-            <li class="lang"><a class="lang" href="">html</a></li>
-          </ul>
-          <button type="button" class="seeBtn" id="0">See Project</button>
-        </article>
-      </div> */
 window.addEventListener('load', () => {
   for (let j = 0; j < projectsInfo.length; j += 1) {
     const cardContainer = document.createElement('article');
