@@ -13,8 +13,8 @@ const projectsInfo = [
     description: 'Interactive To Do List, draggable tasks, optimized for desktop and mobile screen sizes. It reserves data in local storage. Built with HTML, CSS, and JavaScript.',
     'featured image': 'images/Todo.png',
     technologies: ['GitHub', 'JavaScript', 'CSS', 'Webpack'],
-    'link to live version': 'https://jaferidrees.github.io/To-Do-List/dist/',
-    'link to source': 'www.test1.com',
+    'link to live version': 'https://jaferidrees.github.io/To-Do-List/dist',
+    'link to source': 'https://github.com/jaferIdrees/To-Do-List',
   },
   {
     name: 'Keeping track of hundreds of components',
@@ -85,10 +85,14 @@ function showProject(event) {
   const projectBtns = document.createElement('div');
   projectBtns.className = 'puBtns';
   const btn1 = document.createElement('button');
-  btn1.innerText = 'See Live';
   btn1.className = 'btn1';
+  const liveLink = document.createElement('a');
+  liveLink.innerText = 'See Live';
+  btn1.appendChild(liveLink);
   const btn2 = document.createElement('button');
-  btn2.innerText = 'See Source';
+  const sourceLink = document.createElement('a');
+  sourceLink.innerText = 'See Source';
+  btn2.appendChild(sourceLink);
   btn2.className = 'btn1';
   btn2.classList.add('btn2');
   const ProjectId = parseInt(event.target.id, 10);
@@ -106,8 +110,8 @@ function showProject(event) {
   popUpDiv.appendChild(projectUl);
   projectDesc.textContent = projectsInfo[ProjectId].description;
   popUpDiv.appendChild(projectDesc);
-  btn1.href = projectsInfo[ProjectId]['link to live version'];
-  btn2.href = projectsInfo[ProjectId]['link to source'];
+  liveLink.href = projectsInfo[ProjectId]['link to live version'];
+  sourceLink.href = projectsInfo[ProjectId]['link to source'];
   projectBtns.appendChild(btn1);
   projectBtns.appendChild(btn2);
   popUpDiv.appendChild(projectBtns);
