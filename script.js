@@ -17,12 +17,12 @@ const projectsInfo = [
     'link to source': 'https://github.com/jaferIdrees/To-Do-List',
   },
   {
-    name: 'Keeping track of hundreds of components',
+    name: 'Keeping track and manage your spending',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    'featured image': 'images/Snapshoot_Portfolio.jpg',
-    technologies: ['Ruby on rails', 'css', 'JavaScript'],
-    'link to live version': 'www.test1.com',
-    'link to source': 'www.test1.com',
+    'featured image': 'images/smart-budget.png',
+    technologies: ['Ruby on rails', 'Bootstrap','css'],
+    'link to live version': 'https://jafer-smart-budget.onrender.com/',
+    'link to source': 'https://github.com/jaferIdrees/smart_budget',
   },
   {
     name: 'Keeping track of hundreds of components',
