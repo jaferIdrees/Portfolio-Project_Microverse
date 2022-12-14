@@ -27,9 +27,9 @@ const projectsInfo = [
   {
     name: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    'featured image': 'images/Snapshoot_Portfolio2.png',
+    'featured image': 'iimages/Weather_app.png',
     technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-    'link to live version': 'www.test1.com',
+    'link to live version': 'https://630cd93d1ab82d0059f02ac8--singular-peony-e5ed38.netlify.app/',
     'link to source': 'www.test1.com',
   },
   {
