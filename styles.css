@@ -615,8 +615,6 @@ button:hover {
 
   .imgPlaceholder {
     width: 100%;
-    height: 252px;
-    object-fit: cover;
     padding: 0;
     src: url(images/Img_Plaholder_dt.svg);
   }
