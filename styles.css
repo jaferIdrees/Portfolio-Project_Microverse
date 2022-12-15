@@ -1,4 +1,5 @@
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,9 +83,10 @@
 
 .page1Container {
   display: flex;
+  justify-content: space-around;
+  width: 80%;
   flex-direction: column;
-  align-items: space-around;
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -157,13 +159,14 @@ a {
 
 .gridContainer,
 .gridContainerAM {
+  width: 80%;
   display: grid;
   gap: 10px;
-  padding: 10px;
   grid-template-rows: auto;
 }
 
 .workTitle {
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,7 +175,7 @@ a {
 }
 
 #h1WorkTitle {
-  width: 327px;
+  width: 80%;
   height: 97px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -188,12 +191,10 @@ a {
 .langContainer,
 .langList {
   display: flex;
-  justify-content: space-between;
   list-style-type: none;
-  width: 327px;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   padding: 0;
   gap: 8px;
 }
@@ -216,16 +217,17 @@ a {
 
 .cardContainer,
 .cardAM {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 12px;
+  padding: 10px 0px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
 
 .cardContainer {
-  height: 100%;
+  height: auto;
 }
 
 .projectTitle {
@@ -269,7 +271,7 @@ a {
 
 .p_aboutMe {
   flex: 1;
-  width: 351px;
+  width: 90%;
   height: 189px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -294,6 +296,7 @@ a {
 
 .aboutMeBox {
   display: flex;
+  width: 90%;
   flex-direction: column;
   align-items: center;
   background-image: url("images/aboutMeBckgrnd1.svg"), url("images/aboutMeBckgrnd2.svg");
@@ -313,7 +316,7 @@ a {
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
-  width: 327px;
+  width: 90%;
 }
 
 .langName {
@@ -330,8 +333,9 @@ a {
 
 .aboutMeCardCont {
   display: flex;
+  margin: 0;
+  width: 80%;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
@@ -359,7 +363,6 @@ a {
 }
 
 .cf_text {
-  width: 327px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -581,6 +584,7 @@ button:hover {
   body,
   .allPage {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
   }
