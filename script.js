@@ -41,12 +41,12 @@ const projectsInfo = [
     'link to source': 'www.test1.com',
   },
   {
-    name: 'Keeping track of hundreds of components',
+    name: 'Book your temporary office anywhere',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    'featured image': 'images/Snapshoot_Portfolio2.png',
-    technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-    'link to live version': 'www.test1.com',
-    'link to source': 'www.test1.com',
+    'featured image': 'images/officeverse.png',
+    technologies: ['Ruby on Rails', 'ReactJS', 'Redux', 'Tailwind CSS', 'PostgreSQL'],
+    'link to live version': 'https://github.com/jaferIdrees/officeverse-frontend',
+    'link to source': 'https://github.com/jaferIdrees/officeverse-frontend',
   },
 ];
 
