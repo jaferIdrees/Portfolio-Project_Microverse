@@ -3,7 +3,7 @@ const projectsInfo = [
     name: 'Explore meat Recipes of different cuisines',
     description: `On this webapp you can check a list of different meat types with the related ranges of calories and total fat.
     For each meat type you can check the available cuisine types and you can navigate to any available Recipe details.`,
-    'featured image': 'images/Nutrition_Explorer.png',
+    'featured image': 'images/Meat-explorer2.png',
     technologies: ['React', 'Bootstrap', 'JavaScript', 'Redux'],
     'link to live version': 'https://jafer-meat-explorer.netlify.app/',
     'link to source': 'https://github.com/jaferIdrees/nutrition-explorer',
