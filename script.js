@@ -26,7 +26,7 @@ const projectsInfo = [
   },
   {
     name: 'World wide weather forcasting webapp',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'Interactive weather application, for daily and 7 days weather forecasting for any city world wide',
     'featured image': 'images/Weather_app.png',
     technologies: ['ReactJS', 'GitHub', 'JavaScript', 'Bootstrap'],
     'link to live version': 'https://630cd93d1ab82d0059f02ac8--singular-peony-e5ed38.netlify.app/',
