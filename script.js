@@ -35,7 +35,7 @@ const projectsInfo = [
   {
     name: 'Analytical Chemistry Digital Summit 2022',
     description: 'Interactive website for the Analytical Chemistry Digital Summit 2022',
-    'featured image': 'images/Analytical-chemists-summit.png',
+    'featured image': 'images/calculator.jpeg',
     technologies: ['css', 'JavaScript'],
     'link to live version': 'https://jaferidrees.github.io/Analytical-chemists-summit-web/aboutme.html',
     'link to source': 'www.test1.com',
