@@ -88,10 +88,12 @@ function showProject(event) {
   btn1.className = 'btn1';
   const liveLink = document.createElement('a');
   liveLink.innerText = 'See Live';
+  liveLink.target="_blank"
   btn1.appendChild(liveLink);
   const btn2 = document.createElement('button');
   const sourceLink = document.createElement('a');
   sourceLink.innerText = 'See Source';
+  sourceLink.target="_blank"
   btn2.appendChild(sourceLink);
   btn2.className = 'btn1';
   btn2.classList.add('btn2');
