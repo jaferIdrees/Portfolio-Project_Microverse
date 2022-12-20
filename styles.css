@@ -215,11 +215,10 @@ a {
 
 .cardContainer,
 .cardAM {
-  
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 0px;
+  padding: 10px 0;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
@@ -457,6 +456,10 @@ button:hover {
   /* First page styling */
 
   .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 255px;
     padding: 2vh 5vw;
     border-radius: 25%;
     background-color: rgb(182, 185, 179, 0.5);
@@ -473,13 +476,6 @@ button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
-  }
-
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 255px;
   }
 
   .welcome,
@@ -855,8 +851,8 @@ button:hover {
   }
 
   .puImg {
-   width: 600px;
-   height: auto;
+    width: 600px;
+    height: auto;
     flex: 1;
     top: 0;
   }
