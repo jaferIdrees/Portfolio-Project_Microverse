@@ -852,7 +852,7 @@ button:hover {
 
   .puImg {
     width: 600px;
-    height: auto;
+    height: 30vh;
     flex: 1;
     top: 0;
   }
