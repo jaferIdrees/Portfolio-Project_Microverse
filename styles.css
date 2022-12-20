@@ -1,29 +1,26 @@
 .header {
   position: fixed;
+  border-radius: 5%;
+  padding: 0;
+  background-color: rgb(182, 185, 179, 0.5);
   width: 80%;
   top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2vh 5vw;
 }
 
 .vector_container {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
   padding: 0;
   width: 30px;
-  height: 30px;
-  margin-top: 50px;
 }
 
 .welcome {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
 }
 
 .vector {
@@ -458,6 +455,12 @@ button:hover {
 
 @media screen and (min-width: 768px) {
   /* First page styling */
+
+  .header {
+    padding: 2vh 5vw;
+    border-radius: 25%;
+    background-color: rgb(182, 185, 179, 0.5);
+  }
 
   .mainSection {
     background-image: none;
