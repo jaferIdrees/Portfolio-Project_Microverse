@@ -42,8 +42,7 @@ const projectsInfo = [
   },
   {
     name: 'Book your temporary office anywhere',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    'featured image': 'images/officeverse.png',
+    description: 'Using Officeverse individuals small and big teams gain access to space that is both more customized than coffee shops and cheaper than full leases, and coworking businesses get to rent out their unused office space and foster a community of growth and innovation.',
     technologies: ['Ruby on Rails', 'ReactJS', 'Redux', 'Tailwind CSS', 'PostgreSQL'],
     'link to live version': 'https://63a1efda1ab4a60007cacf18--tourmaline-tiramisu-88cd75.netlify.app/',
     'link to source': 'https://github.com/jaferIdrees/officeverse-frontend',
